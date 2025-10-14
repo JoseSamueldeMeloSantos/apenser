@@ -11,6 +11,8 @@
   /* Tons auxiliares */
   --color-hero-light: #fff9c4;
   --color-hero-bright: #fff176;
+
+  --photo-container-y-size: calc(100vh - 97px)
 }
 
 body { margin: 0;}
@@ -25,7 +27,8 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-dark);
-    padding-bottom: 1.7em;
+    padding-bottom: 1.8em;
+    padding-top: 1.8em;
 }
 
 .hero__logo {margin-left: 10em;}
@@ -35,7 +38,7 @@ html {
     margin-left: 0;
     padding: 0;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .hero-nav__item {
@@ -51,5 +54,6 @@ html {
     padding: .7em 1em;
     border: 1px solid var(--color-yellow);
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 700;
+    text-transform: uppercase;
 }
