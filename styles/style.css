@@ -186,3 +186,31 @@ html {
     color: white;
     font-size: 2em;
 }
+
+/*map container*/
+
+.map-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.map-container__title {
+    font-size: 2.5em;
+}
+
+.map-container__img {
+    height: 60vh;
+    width: 80vw;
+}
+
+.map-container__list {
+    margin-left: calc(80vw - 226.54px);
+}
+
+.map-container__item {
+    list-style-type: none;
+    font-size: 1.3em;
+}
