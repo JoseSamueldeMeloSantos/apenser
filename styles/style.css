@@ -156,3 +156,33 @@ html {
     color: var(--color-text);
     font-weight: 600;
 }
+
+/*info container*/
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 81vh;
+    background-color: var(--color-blue);
+}
+
+.info-container__img {
+    height: 70vh;
+}
+
+.info-container__div {
+    margin-top: 3em;
+    align-self: flex-start;
+    width: 50vw;
+}
+
+.info-container__title {
+    color: white;
+    font-size: 4em;
+}
+
+.info-container__text {
+    color: white;
+    font-size: 2em;
+}
