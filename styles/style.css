@@ -12,7 +12,9 @@
   --color-hero-light: #fff9c4;
   --color-hero-bright: #fff176;
 
-  --photo-container-y-size: calc(100vh - 115px)
+  --photo-container-y-size: calc(100vh - 115px);
+
+  --option-course-backgroun-color: rgb(218, 218, 218);
 }
 
 body { margin: 0;}
@@ -29,6 +31,9 @@ html {
     background-color: var(--color-dark);
     padding-bottom: 1.8em;
     padding-top: 1.8em;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 .hero__logo {margin-left: 10em;}
@@ -90,6 +95,60 @@ html {
 }
 
 .left-container__button {
+    background-color: #ffd300;
+    font-size: 1.7em;
+    padding: .7em 2em;
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+/*courses container*/
+.courses-container {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.courses-container__title {
+    font-size: 2.5rem;
+}
+
+.courses-container__div {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    gap: 3em;
+}
+
+.option-course {
+    flex-basis: 4rem;
+    height: 58vh;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+}
+
+.option-course__title {
+    font-size: 2em;
+    padding-left: 2rem;
+}
+.option-course__text {
+    font-size: 1.3em;
+    padding-left: 2rem;
+    width: calc(90% - 2rem);
+    text-align: start;
+}
+.option-course__img {
+    width: 30rem;
+}
+
+.courses-container__button {
     background-color: #ffd300;
     font-size: 1.7em;
     padding: .7em 2em;
