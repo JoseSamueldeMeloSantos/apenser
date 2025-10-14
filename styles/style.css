@@ -13,7 +13,6 @@
   --color-hero-bright: #fff176;
 
   --photo-container-y-size: calc(100vh - 115px);
-
   --option-course-backgroun-color: rgb(218, 218, 218);
 }
 
@@ -213,4 +212,16 @@ html {
 .map-container__item {
     list-style-type: none;
     font-size: 1.3em;
+}
+
+/*footer container*/
+.footer-container {
+    padding: 1.5em;
+    background-color: var(--color-dark);
+}
+
+.footer-container__text {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
 }
