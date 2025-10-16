@@ -16,6 +16,8 @@
   --option-course-backgroun-color: rgb(218, 218, 218);
 }
 
+/* general */
+
 body { margin: 0;}
 
 html {
@@ -38,6 +40,18 @@ html {
     max-width: 136.6rem;   
     margin: auto;
 }
+
+
+.normal-button {
+    background-color: #ffd300;
+    font-size: 1.7em;
+    padding: .7em 2em;
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+/*hero container*/
 
 .background-dark {
     background-color: var(--color-dark);
@@ -121,15 +135,6 @@ html {
     font-size: 5rem;
 }
 
-.left-container__button {
-    background-color: #ffd300;
-    font-size: 1.7em;
-    padding: .7em 2em;
-    text-decoration: none;
-    color: var(--color-text);
-    font-weight: 600;
-}
-
 /*courses container*/
 .courses-container {
     height: 100vh;
@@ -172,15 +177,6 @@ html {
 }
 .option-course__img {
     width: 30rem;
-}
-
-.courses-container__button {
-    background-color: #ffd300;
-    font-size: 1.7em;
-    padding: .7em 2em;
-    text-decoration: none;
-    color: var(--color-text);
-    font-weight: 600;
 }
 
 /*info container*/
