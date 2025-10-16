@@ -31,7 +31,7 @@ html {
 #cursos,
 #sobre,
 #contatos {
-    scroll-margin-top: 115px; 
+    scroll-margin-top: 115px;    
 }
 
 .centralizer {
@@ -216,7 +216,7 @@ html {
 
 /*map container*/
 
-.map-container {
+.contact-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -224,21 +224,20 @@ html {
     justify-content: space-evenly;
 }
 
-.map-container__title {
+.contact-container__title {
     font-size: 2.5em;
 }
 
-.map-container__map {
+.contact-container__map {
     height: 60vh;
     width: 87%;
 }
 
-.map-container__list {
+.contact-container__address {
     margin-left: calc(87% - 226.54px);
 }
 
-.map-container__item {
-    list-style-type: none;
+.contact-container__item {
     font-size: 1.3em;
 }
 
