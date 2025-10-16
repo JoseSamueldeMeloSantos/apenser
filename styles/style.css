@@ -23,6 +23,16 @@ html {
     font-family: 'Open Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* 
+  Define uma margem superior ao usar rolagem com âncoras (ex: links com #cursos, #sobre, #contatos),
+  para que os elementos não fiquem "escondidos" atrás de um cabeçalho fixo (como um menu sticky).
+  Neste caso, 115px de espaço são deixados acima do elemento quando ele é rolado para a visão.
+*/
+#cursos,
+#sobre,
+#contatos {
+    scroll-margin-top: 115px; 
+}
 
 .centralizer {
     max-width: 136.6rem;   
